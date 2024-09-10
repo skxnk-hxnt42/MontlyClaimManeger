@@ -23,7 +23,7 @@ namespace MonthlyClaimManager
             LoadPendingClaims();
         }
 
-        // Event for file upload (dummy for now)
+        // Event for file upload (not in use for now)
         private void UploadDocument_Click(object sender, RoutedEventArgs e)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
