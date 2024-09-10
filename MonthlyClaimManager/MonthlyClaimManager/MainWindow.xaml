@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <TabControl>
-            <!-- Tab for Lecturer Submission -->
+            <!-- Tab for Lecturer Submission --> 
             <TabItem Header="Lecturer Dashboard">
                 <StackPanel>
                     <TextBlock Text="Submit Monthly Claim" FontSize="20" FontWeight="Bold" Margin="10"/>
