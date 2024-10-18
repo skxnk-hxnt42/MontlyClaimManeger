@@ -1,0 +1,385 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{788AF388-33BA-4D46-A85F-386F6E562CBB}|MonthlyClaimManager.Tests\\MonthlyClaimManager.Tests.csproj|c:\\users\\skxnk_hxnt42\\source\\repos\\monthlyclaimmanager_mvc\\monthlyclaimmanager.tests\\claimcontroller_approvetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{788AF388-33BA-4D46-A85F-386F6E562CBB}|MonthlyClaimManager.Tests\\MonthlyClaimManager.Tests.csproj|solutionrelative:monthlyclaimmanager.tests\\claimcontroller_approvetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{788AF388-33BA-4D46-A85F-386F6E562CBB}|MonthlyClaimManager.Tests\\MonthlyClaimManager.Tests.csproj|c:\\users\\skxnk_hxnt42\\source\\repos\\monthlyclaimmanager_mvc\\monthlyclaimmanager.tests\\claimcontroller_filetoolargetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{788AF388-33BA-4D46-A85F-386F6E562CBB}|MonthlyClaimManager.Tests\\MonthlyClaimManager.Tests.csproj|solutionrelative:monthlyclaimmanager.tests\\claimcontroller_filetoolargetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{788AF388-33BA-4D46-A85F-386F6E562CBB}|MonthlyClaimManager.Tests\\MonthlyClaimManager.Tests.csproj|c:\\users\\skxnk_hxnt42\\source\\repos\\monthlyclaimmanager_mvc\\monthlyclaimmanager.tests\\claimsubmissiontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{788AF388-33BA-4D46-A85F-386F6E562CBB}|MonthlyClaimManager.Tests\\MonthlyClaimManager.Tests.csproj|solutionrelative:monthlyclaimmanager.tests\\claimsubmissiontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{788AF388-33BA-4D46-A85F-386F6E562CBB}|MonthlyClaimManager.Tests\\MonthlyClaimManager.Tests.csproj|c:\\users\\skxnk_hxnt42\\source\\repos\\monthlyclaimmanager_mvc\\monthlyclaimmanager.tests\\monthlyclaimmanager.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{788AF388-33BA-4D46-A85F-386F6E562CBB}|MonthlyClaimManager.Tests\\MonthlyClaimManager.Tests.csproj|solutionrelative:monthlyclaimmanager.tests\\monthlyclaimmanager.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F872FA3-1B1F-4BCE-B660-A69E7D911832}|MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC.csproj|c:\\users\\skxnk_hxnt42\\source\\repos\\monthlyclaimmanager_mvc\\monthlyclaimmanager_mvc\\views\\claim\\claimslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F872FA3-1B1F-4BCE-B660-A69E7D911832}|MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC.csproj|solutionrelative:monthlyclaimmanager_mvc\\views\\claim\\claimslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F872FA3-1B1F-4BCE-B660-A69E7D911832}|MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC.csproj|c:\\users\\skxnk_hxnt42\\source\\repos\\monthlyclaimmanager_mvc\\monthlyclaimmanager_mvc\\controllers\\claimcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F872FA3-1B1F-4BCE-B660-A69E7D911832}|MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC.csproj|solutionrelative:monthlyclaimmanager_mvc\\controllers\\claimcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F872FA3-1B1F-4BCE-B660-A69E7D911832}|MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC.csproj|c:\\users\\skxnk_hxnt42\\source\\repos\\monthlyclaimmanager_mvc\\monthlyclaimmanager_mvc\\views\\claim\\lecturerclaims.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F872FA3-1B1F-4BCE-B660-A69E7D911832}|MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC.csproj|solutionrelative:monthlyclaimmanager_mvc\\views\\claim\\lecturerclaims.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F872FA3-1B1F-4BCE-B660-A69E7D911832}|MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC.csproj|c:\\users\\skxnk_hxnt42\\source\\repos\\monthlyclaimmanager_mvc\\monthlyclaimmanager_mvc\\views\\claim\\submitclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F872FA3-1B1F-4BCE-B660-A69E7D911832}|MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC.csproj|solutionrelative:monthlyclaimmanager_mvc\\views\\claim\\submitclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F872FA3-1B1F-4BCE-B660-A69E7D911832}|MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC.csproj|c:\\users\\skxnk_hxnt42\\source\\repos\\monthlyclaimmanager_mvc\\monthlyclaimmanager_mvc\\models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F872FA3-1B1F-4BCE-B660-A69E7D911832}|MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC.csproj|solutionrelative:monthlyclaimmanager_mvc\\models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F872FA3-1B1F-4BCE-B660-A69E7D911832}|MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC.csproj|c:\\users\\skxnk_hxnt42\\source\\repos\\monthlyclaimmanager_mvc\\monthlyclaimmanager_mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F872FA3-1B1F-4BCE-B660-A69E7D911832}|MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC.csproj|solutionrelative:monthlyclaimmanager_mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F872FA3-1B1F-4BCE-B660-A69E7D911832}|MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC.csproj|c:\\users\\skxnk_hxnt42\\source\\repos\\monthlyclaimmanager_mvc\\monthlyclaimmanager_mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F872FA3-1B1F-4BCE-B660-A69E7D911832}|MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC.csproj|solutionrelative:monthlyclaimmanager_mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F872FA3-1B1F-4BCE-B660-A69E7D911832}|MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC.csproj|c:\\users\\skxnk_hxnt42\\source\\repos\\monthlyclaimmanager_mvc\\monthlyclaimmanager_mvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F872FA3-1B1F-4BCE-B660-A69E7D911832}|MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC.csproj|solutionrelative:monthlyclaimmanager_mvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F872FA3-1B1F-4BCE-B660-A69E7D911832}|MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC.csproj|c:\\users\\skxnk_hxnt42\\source\\repos\\monthlyclaimmanager_mvc\\monthlyclaimmanager_mvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F872FA3-1B1F-4BCE-B660-A69E7D911832}|MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC.csproj|solutionrelative:monthlyclaimmanager_mvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F872FA3-1B1F-4BCE-B660-A69E7D911832}|MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC.csproj|c:\\users\\skxnk_hxnt42\\source\\repos\\monthlyclaimmanager_mvc\\monthlyclaimmanager_mvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F872FA3-1B1F-4BCE-B660-A69E7D911832}|MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC.csproj|solutionrelative:monthlyclaimmanager_mvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F872FA3-1B1F-4BCE-B660-A69E7D911832}|MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC.csproj|c:\\users\\skxnk_hxnt42\\source\\repos\\monthlyclaimmanager_mvc\\monthlyclaimmanager_mvc\\views\\home\\lecturerlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F872FA3-1B1F-4BCE-B660-A69E7D911832}|MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC.csproj|solutionrelative:monthlyclaimmanager_mvc\\views\\home\\lecturerlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F872FA3-1B1F-4BCE-B660-A69E7D911832}|MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC.csproj|c:\\users\\skxnk_hxnt42\\source\\repos\\monthlyclaimmanager_mvc\\monthlyclaimmanager_mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F872FA3-1B1F-4BCE-B660-A69E7D911832}|MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC.csproj|solutionrelative:monthlyclaimmanager_mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F872FA3-1B1F-4BCE-B660-A69E7D911832}|MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC.csproj|c:\\users\\skxnk_hxnt42\\source\\repos\\monthlyclaimmanager_mvc\\monthlyclaimmanager_mvc\\views\\home\\adminlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F872FA3-1B1F-4BCE-B660-A69E7D911832}|MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC.csproj|solutionrelative:monthlyclaimmanager_mvc\\views\\home\\adminlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F872FA3-1B1F-4BCE-B660-A69E7D911832}|MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC.csproj|c:\\users\\skxnk_hxnt42\\source\\repos\\monthlyclaimmanager_mvc\\monthlyclaimmanager_mvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F872FA3-1B1F-4BCE-B660-A69E7D911832}|MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC.csproj|solutionrelative:monthlyclaimmanager_mvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F872FA3-1B1F-4BCE-B660-A69E7D911832}|MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC.csproj|c:\\users\\skxnk_hxnt42\\source\\repos\\monthlyclaimmanager_mvc\\monthlyclaimmanager_mvc\\hubs\\claimhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F872FA3-1B1F-4BCE-B660-A69E7D911832}|MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC.csproj|solutionrelative:monthlyclaimmanager_mvc\\hubs\\claimhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F872FA3-1B1F-4BCE-B660-A69E7D911832}|MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC.csproj|c:\\users\\skxnk_hxnt42\\source\\repos\\monthlyclaimmanager_mvc\\monthlyclaimmanager_mvc\\controllers\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F872FA3-1B1F-4BCE-B660-A69E7D911832}|MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC.csproj|solutionrelative:monthlyclaimmanager_mvc\\controllers\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F872FA3-1B1F-4BCE-B660-A69E7D911832}|MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC.csproj|c:\\users\\skxnk_hxnt42\\source\\repos\\monthlyclaimmanager_mvc\\monthlyclaimmanager_mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F872FA3-1B1F-4BCE-B660-A69E7D911832}|MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC.csproj|solutionrelative:monthlyclaimmanager_mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClaimController_ApproveTests.cs",
+              "DocumentMoniker": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager.Tests\\ClaimController_ApproveTests.cs",
+              "RelativeDocumentMoniker": "MonthlyClaimManager.Tests\\ClaimController_ApproveTests.cs",
+              "ToolTip": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager.Tests\\ClaimController_ApproveTests.cs",
+              "RelativeToolTip": "MonthlyClaimManager.Tests\\ClaimController_ApproveTests.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAwwDMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T15:24:00.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClaimController_FileTooLargeTests.cs",
+              "DocumentMoniker": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager.Tests\\ClaimController_FileTooLargeTests.cs",
+              "RelativeDocumentMoniker": "MonthlyClaimManager.Tests\\ClaimController_FileTooLargeTests.cs",
+              "ToolTip": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager.Tests\\ClaimController_FileTooLargeTests.cs",
+              "RelativeToolTip": "MonthlyClaimManager.Tests\\ClaimController_FileTooLargeTests.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAwwC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T15:21:48.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClaimSubmissionTests.cs",
+              "DocumentMoniker": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager.Tests\\ClaimSubmissionTests.cs",
+              "RelativeDocumentMoniker": "MonthlyClaimManager.Tests\\ClaimSubmissionTests.cs",
+              "ToolTip": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager.Tests\\ClaimSubmissionTests.cs",
+              "RelativeToolTip": "MonthlyClaimManager.Tests\\ClaimSubmissionTests.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAwwDoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T15:09:15.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MonthlyClaimManager.Tests",
+              "DocumentMoniker": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager.Tests\\MonthlyClaimManager.Tests.csproj",
+              "RelativeDocumentMoniker": "MonthlyClaimManager.Tests\\MonthlyClaimManager.Tests.csproj",
+              "ToolTip": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager.Tests\\MonthlyClaimManager.Tests.csproj",
+              "RelativeToolTip": "MonthlyClaimManager.Tests\\MonthlyClaimManager.Tests.csproj",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-18T15:15:33.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClaimsList.cshtml",
+              "DocumentMoniker": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC\\Views\\Claim\\ClaimsList.cshtml",
+              "RelativeDocumentMoniker": "MonthlyClaimManager_MVC\\Views\\Claim\\ClaimsList.cshtml",
+              "ToolTip": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC\\Views\\Claim\\ClaimsList.cshtml",
+              "RelativeToolTip": "MonthlyClaimManager_MVC\\Views\\Claim\\ClaimsList.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T11:58:59.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClaimControllers.cs",
+              "DocumentMoniker": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC\\Controllers\\ClaimControllers.cs",
+              "RelativeDocumentMoniker": "MonthlyClaimManager_MVC\\Controllers\\ClaimControllers.cs",
+              "ToolTip": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC\\Controllers\\ClaimControllers.cs",
+              "RelativeToolTip": "MonthlyClaimManager_MVC\\Controllers\\ClaimControllers.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAgwHAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T11:57:03.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LecturerClaims.cshtml",
+              "DocumentMoniker": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC\\Views\\Claim\\LecturerClaims.cshtml",
+              "RelativeDocumentMoniker": "MonthlyClaimManager_MVC\\Views\\Claim\\LecturerClaims.cshtml",
+              "ToolTip": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC\\Views\\Claim\\LecturerClaims.cshtml",
+              "RelativeToolTip": "MonthlyClaimManager_MVC\\Views\\Claim\\LecturerClaims.cshtml",
+              "ViewState": "AQIAABkAAAAAAAAAAADwvycAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T14:55:47.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SubmitClaim.cshtml",
+              "DocumentMoniker": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC\\Views\\Claim\\SubmitClaim.cshtml",
+              "RelativeDocumentMoniker": "MonthlyClaimManager_MVC\\Views\\Claim\\SubmitClaim.cshtml",
+              "ToolTip": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC\\Views\\Claim\\SubmitClaim.cshtml",
+              "RelativeToolTip": "MonthlyClaimManager_MVC\\Views\\Claim\\SubmitClaim.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAC8AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T11:57:38.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Claim.cs",
+              "DocumentMoniker": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC\\Models\\Claim.cs",
+              "RelativeDocumentMoniker": "MonthlyClaimManager_MVC\\Models\\Claim.cs",
+              "ToolTip": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC\\Models\\Claim.cs",
+              "RelativeToolTip": "MonthlyClaimManager_MVC\\Models\\Claim.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T11:56:23.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MonthlyClaimManager_MVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MonthlyClaimManager_MVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T11:59:14.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "MonthlyClaimManager_MVC\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "MonthlyClaimManager_MVC\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T11:10:00.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC\\Program.cs",
+              "RelativeDocumentMoniker": "MonthlyClaimManager_MVC\\Program.cs",
+              "ToolTip": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC\\Program.cs",
+              "RelativeToolTip": "MonthlyClaimManager_MVC\\Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAuwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T12:26:29.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "MonthlyClaimManager_MVC\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "MonthlyClaimManager_MVC\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T11:10:02.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "MonthlyClaimManager_MVC\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "MonthlyClaimManager_MVC\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T11:09:54.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LecturerLogin.cshtml",
+              "DocumentMoniker": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC\\Views\\Home\\LecturerLogin.cshtml",
+              "RelativeDocumentMoniker": "MonthlyClaimManager_MVC\\Views\\Home\\LecturerLogin.cshtml",
+              "ToolTip": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC\\Views\\Home\\LecturerLogin.cshtml",
+              "RelativeToolTip": "MonthlyClaimManager_MVC\\Views\\Home\\LecturerLogin.cshtml",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAuwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T12:20:22.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MonthlyClaimManager_MVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MonthlyClaimManager_MVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T12:19:48.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AdminLogin.cshtml",
+              "DocumentMoniker": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC\\Views\\Home\\AdminLogin.cshtml",
+              "RelativeDocumentMoniker": "MonthlyClaimManager_MVC\\Views\\Home\\AdminLogin.cshtml",
+              "ToolTip": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC\\Views\\Home\\AdminLogin.cshtml",
+              "RelativeToolTip": "MonthlyClaimManager_MVC\\Views\\Home\\AdminLogin.cshtml",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAuwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T12:21:04.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "MonthlyClaimManager_MVC\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "MonthlyClaimManager_MVC\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T11:08:43.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ClaimHub.cs",
+              "DocumentMoniker": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC\\Hubs\\ClaimHub.cs",
+              "RelativeDocumentMoniker": "MonthlyClaimManager_MVC\\Hubs\\ClaimHub.cs",
+              "ToolTip": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC\\Hubs\\ClaimHub.cs",
+              "RelativeToolTip": "MonthlyClaimManager_MVC\\Hubs\\ClaimHub.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAiwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T10:48:37.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC\\Controllers\\LoginModel.cs",
+              "RelativeDocumentMoniker": "MonthlyClaimManager_MVC\\Controllers\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC\\Controllers\\LoginModel.cs",
+              "RelativeToolTip": "MonthlyClaimManager_MVC\\Controllers\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T12:21:52.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MonthlyClaimManager_MVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Skxnk_Hxnt42\\source\\repos\\MonthlyClaimManager_MVC\\MonthlyClaimManager_MVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MonthlyClaimManager_MVC\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAqwDoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T12:22:21.516Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

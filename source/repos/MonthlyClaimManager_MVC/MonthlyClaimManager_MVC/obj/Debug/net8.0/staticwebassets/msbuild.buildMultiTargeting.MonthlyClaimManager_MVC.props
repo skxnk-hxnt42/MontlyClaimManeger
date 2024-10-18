@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MonthlyClaimManager_MVC.props" />
+</Project>

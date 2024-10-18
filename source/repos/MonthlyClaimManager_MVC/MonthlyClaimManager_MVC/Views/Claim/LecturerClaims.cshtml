@@ -1,0 +1,45 @@
+﻿@model List<MonthlyClaimManager.Models.Claim>
+
+<div class="container mt-5">
+    <h2 class="mb-4">Your Submitted Claims</h2>
+
+    <div>
+        @if (Model.Count == 0)
+        {
+            <p>You have not submitted any claims yet.</p>
+        }
+        else
+        {
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Lecturer ID</th>
+                        <th>Lecturer Name</th>
+                        <th>Hours Worked</th>
+                        <th>Claim Amount</th>
+                        <th>Status</th>
+                        <th>Supporting Document</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var claim in Model)
+                    {
+                        <tr>
+                            <td>@claim.LecturerID</td>
+                            <td>@claim.LecturerName</td>
+                            <td>@claim.HoursWorked</td>
+                            <td>@claim.ClaimAmount</td>
+                            <td>@claim.ClaimStatus</td>
+                            <td>
+                                @if (!string.IsNullOrEmpty(claim.DocumentPath))
+                                {
+                                    <a href="@claim.DocumentPath" target="_blank">View Document</a>
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
+</div>

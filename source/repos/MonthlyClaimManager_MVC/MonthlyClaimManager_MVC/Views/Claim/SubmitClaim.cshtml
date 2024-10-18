@@ -1,0 +1,55 @@
+﻿@model MonthlyClaimManager.Models.Claim
+
+@{
+    ViewData["Title"] = "Submit Claim";
+}
+
+<div class="container mt-5">
+    <h2 class="mb-4">Submit Monthly Claim</h2>
+
+    <!-- Display validation errors, if any -->
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div class="alert alert-danger">
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <p>@error.ErrorMessage</p>
+            }
+        </div>
+    }
+
+    <form asp-action="SubmitClaim" enctype="multipart/form-data" method="post" class="bg-light p-4 border rounded">
+        <div class="form-group">
+            <label for="LecturerID">Lecturer ID</label>
+            <input asp-for="LecturerID" id="LecturerID" class="form-control" placeholder="Enter your Lecturer ID" required />
+        </div>
+
+        <div class="form-group">
+            <label for="LecturerName">Lecturer Name</label>
+            <input asp-for="LecturerName" id="LecturerName" class="form-control" placeholder="Enter your Name" required />
+        </div>
+
+        <div class="form-group">
+            <label for="HoursWorked">Hours Worked</label>
+            <input asp-for="HoursWorked" id="HoursWorked" class="form-control" placeholder="Enter hours worked" required />
+        </div>
+
+        <div class="form-group">
+            <label for="HourlyRate">Hourly Rate</label>
+            <input asp-for="HourlyRate" id="HourlyRate" class="form-control" placeholder="Enter hourly rate" required />
+        </div>
+
+        <div class="form-group">
+            <label for="uploadedFile">Upload Supporting Document</label>
+            <input type="file" name="uploadedFile" id="uploadedFile" class="form-control-file" />
+        </div>
+
+        <button type="submit" class="btn btn-primary mt-3">Submit Claim</button>
+    </form>
+</div>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/5.0.11/signalr.min.js"></script>
+    <partial name="_ValidationScriptsPartial" />
+}

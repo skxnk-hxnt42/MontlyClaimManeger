@@ -1,0 +1,86 @@
+﻿@model List<MonthlyClaimManager.Models.Claim>
+
+<div class="container mt-5">
+    <h2 class="mb-4">All Claims</h2> <!-- Updated title to reflect that all claims are shown -->
+
+    <div id="claimList">
+        @if (Model.Count == 0)
+        {
+            <p>No claims at this moment.</p>
+        }
+        else
+        {
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Lecturer ID</th>
+                        <th>Lecturer Name</th>
+                        <th>Hours Worked</th>
+                        <th>Claim Amount</th>
+                        <th>Supporting Document</th>
+                        <th>Status</th>
+                        <th>Actions</th> <!-- Admin only sees actions for pending claims -->
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var claim in Model)
+                    {
+                        <tr>
+                            <td>@claim.LecturerID</td>
+                            <td>@claim.LecturerName</td>
+                            <td>@claim.HoursWorked</td>
+                            <td>@claim.ClaimAmount</td>
+                            <td>
+                                @if (!string.IsNullOrEmpty(claim.DocumentPath))
+                                {
+                                    <a href="@claim.DocumentPath" target="_blank">View Document</a>
+                                }
+                            </td>
+                            <td>
+                                <!-- Display claim status -->
+                                <span class="badge @((claim.ClaimStatus == "Pending") ? "badge-warning" : (claim.ClaimStatus == "Approved") ? "badge-success" : "badge-danger")">
+                                    @claim.ClaimStatus
+                                </span>
+                            </td>
+                            <td>
+                                @if (claim.ClaimStatus == "Pending")
+                                {
+                                    <!-- Only show Approve/Reject buttons for pending claims -->
+                                    <form asp-action="ApproveClaim" method="post" class="d-inline">
+                                        <input type="hidden" name="id" value="@claim.LecturerID" />
+                                        <button type="submit" class="btn btn-success">Approve</button>
+                                    </form>
+                                    <form asp-action="RejectClaim" method="post" class="d-inline">
+                                        <input type="hidden" name="id" value="@claim.LecturerID" />
+                                        <button type="submit" class="btn btn-danger">Reject</button>
+                                    </form>
+                                }
+                                else
+                                {
+                                    <p>No actions available</p>
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/5.0.11/signalr.min.js"></script>
+    <script type="text/javascript">
+        const connection = new signalR.HubConnectionBuilder().withUrl("/claimHub").build();
+
+        connection.on("ReceiveClaimUpdate", function () {
+            location.reload(); // Reload page to reflect new claims
+        });
+
+        connection.on("ReceiveStatusUpdate", function () {
+            location.reload(); // Reload page to reflect status changes
+        });
+
+        connection.start();
+    </script>
+}

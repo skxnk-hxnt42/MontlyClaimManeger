@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Welcome";
+}
+
+<div class="container text-center mt-5">
+    <h1 class="display-4">Welcome to the Submissions Claim System</h1>
+    <p class="lead">Please select your role to log in</p>
+
+    <div class="mt-4">
+        <a href="@Url.Action("LecturerLogin", "Home")" class="btn btn-primary btn-lg mr-3">Login as Lecturer</a>
+        <a href="@Url.Action("AdminLogin", "Home")" class="btn btn-secondary btn-lg">Login as Admin</a>
+    </div>
+</div>
