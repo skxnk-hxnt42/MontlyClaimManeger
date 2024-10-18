@@ -39,6 +39,10 @@ Visual Studio 2019 or higher
 SQL Server (local or remote)
 Entity Framework Core
 
+Link to Git Hub Repo:
+
+https://github.com/skxnk-hxnt42/MontlyClaimManeger
+
 json
 Copy code
 "ConnectionStrings": {
