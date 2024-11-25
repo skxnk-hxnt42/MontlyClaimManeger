@@ -1,0 +1,74 @@
+﻿@model IEnumerable<ClaimViewModel>
+
+@{
+    ViewData["Title"] = "Manage Claims";
+}
+
+<h2>Manage Claims</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Claim ID</th>
+            <th>Lecturer Name</th>
+            <th>Department</th>
+            <th>Month</th>
+            <th>Hours Worked</th>
+            <th>Hourly Rate</th>
+            <th>Total Claim</th>
+            <th>Status</th>
+            <th>Supporting Document</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var claim in Model)
+        {
+            <tr>
+                <td>@claim.Id</td>
+                <td>@claim.LecturerName</td>
+                <td>@claim.LecturerDepartment</td>
+                <td>@claim.Month</td>
+                <td>@claim.HoursWorked</td>
+                <td>@claim.HourlyRate.ToString("C")</td>
+                <td>@claim.TotalClaim.ToString("C")</td>
+                <td>@claim.Status</td>
+                <td>
+                    <a href="@Url.Action("GenerateReport", "Admin")" class="btn btn-primary">Generate Report</a>
+
+                    @if (!string.IsNullOrEmpty(claim.SupportingDocument))
+                    {
+                        <a href="@Url.Content(claim.SupportingDocument)" target="_blank">View Document</a>
+                    }
+                    else
+                    {
+                        <span>No Document</span>
+                    }
+                </td>
+                <td>
+                    @if (claim.Status != "Approved" && claim.Status != "Rejected")
+                    {
+                        <form asp-action="UpdateClaimStatus" method="post" style="display:inline;">
+                            <input type="hidden" name="claimId" value="@claim.Id" />
+                            <input type="hidden" name="action" value="approve" />
+                            <button type="submit" class="btn btn-success">Approve</button>
+                        </form>
+                        <form asp-action="UpdateClaimStatus" method="post" style="display:inline;">
+                            <input type="hidden" name="claimId" value="@claim.Id" />
+                            <input type="hidden" name="action" value="reject" />
+                            <button type="submit" class="btn btn-danger">Reject</button>
+                        </form>
+                    }
+                    else
+                    {
+                        <span>@claim.Status</span>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+
